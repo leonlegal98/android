@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="734dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="14dp"
+                android:text="Repère nutritionnels pour 100g"
+                android:textColor="@color/black"
+                android:textSize="15dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/ron_1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/nutrient_level_low"
+
+                >
+
+            </View>
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Repère nutritionnels pour 100g"
+                android:textColor="@color/black"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="$our 100g"
+                android:textColor="@color/black"
+                android:textSize="15dp">
+
+            </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/ron_4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/nutrient_level_low"
+
+                >
+
+            </View>
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Repère nutritionnels pour 100g"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="$our 100g"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <View
+                android:id="@+id/ron_2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/nutrient_level_moderate"
+
+                >
+
+            </View>
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Repère nutritionnels pour 100g"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="$our 100g"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <View
+                android:id="@+id/ron_3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/nutrient_level_high"
+
+
+
+                >
+
+            </View>
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Repère nutritionnels pour 100g"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="$our 100g"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
